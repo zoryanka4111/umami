@@ -1,0 +1,10 @@
+node_modules
+.idea
+/src/links.txt
+*.rar
+*.zip
+/log
+src/img
+src/dist/
+src/**/*.html
+password

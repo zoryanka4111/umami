@@ -1,0 +1,237 @@
+.popup_bg {
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: 280;
+  display: none;
+  pointer-events: initial;
+}
+.popup_bg.dark {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.popup_wrap {
+  overflow: hidden;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 281;
+  pointer-events: none;
+}
+.popup_block {
+  pointer-events: initial;
+  overflow: hidden;
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  margin: auto;
+  z-index: 281;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  align-items: center;
+  justify-content: center;
+  will-change: transform;
+}
+.popup_block .bottom .main_btn {
+  margin-right: 15px;
+}
+.popup_block .bottom .main_btn:last-child {
+  margin: 0;
+}
+.popup_block * {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+}
+.popup_block .content_wrap_inner {
+  max-height: 100%;
+}
+.popup_block .content_wrap {
+  padding: 30px 30px 20px;
+  max-height: 100%;
+  text-align: center;
+}
+.popup_block h2 {
+  font-size: 27px;
+  margin-bottom: 13px;
+}
+.popup_block p.title {
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.23px;
+}
+.popup_block .content {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+.popup_block .content,
+.popup_block .content_wrap {
+  position: relative;
+  z-index: 1;
+}
+.popup_block.done img.done {
+  margin-top: 16px;
+  margin-bottom: 35px;
+}
+.popup_block.done p {
+  font-size: 18px;
+}
+.popup_block .popupWrap {
+  overflow: hidden;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+}
+.popup_block .popupWrap.flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+.popup_block .popupWrap .popupContent {
+  -webkit-overflow-scrolling: touch;
+  overflow-y: auto;
+  overflow-x: hidden;
+  max-height: 100%;
+  width: 100%;
+  max-width: initial!important;
+}
+.popup_block .popupWrap > .contacts {
+  min-height: 100vh;
+}
+.popup_block.fullWidth {
+  width: 100%;
+}
+.popupContent {
+  width: 100%;
+  max-width: 100%;
+  padding: 25px;
+  margin: auto;
+}
+.popupContent .bgLayer {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.popupContent .content {
+  background: #F8F8F8;
+  display: block;
+  width: 800px;
+  max-width: 100%;
+  min-height: 100px;
+  margin: auto;
+  padding: 117px 123px 80px;
+}
+.popupContent .content .close {
+  position: absolute;
+  top: 48px;
+  right: 46px;
+  cursor: pointer;
+  min-width: initial;
+  width: auto;
+  transition: 0.2s;
+}
+.popupContent .content .close:hover {
+  transform: rotate(90deg);
+}
+.checkboxBlock {
+  position: relative;
+  padding-left: 34px;
+  margin-top: 24px;
+  margin-bottom: 52px;
+}
+.checkboxBlock p {
+  opacity: 1;
+  color: #7C7C7C;
+  margin: 0;
+  display: inline;
+  font-size: 14px;
+  line-height: 116%;
+}
+.checkboxBlock a {
+  color: black;
+}
+.checkboxBlock label.checkbox {
+  width: auto;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+@media screen and (max-width: 840px) {
+  .popupContent .content {
+    padding: 100px 80px 60px;
+  }
+  .popupContent .content .close {
+    top: 35px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .popupContent .content {
+    padding: 80px 30px 50px;
+  }
+}
+@media screen and (max-width: 640px) {
+  .popupTop {
+    margin-bottom: 20px;
+  }
+  .socialLogin {
+    margin-bottom: 5px;
+  }
+  .popup_block .popupWrap .popupContent {
+    padding: 10px 10px 70px;
+  }
+  .popupContent .content .close {
+    top: 20px;
+    right: 20px;
+  }
+  .socialLoginItem {
+    width: 100%!important;
+  }
+  .popupTop {
+    display: block;
+  }
+  .popupTop .memberBlock {
+    padding: 15px 0 0;
+  }
+  .popupContent .content {
+    padding: 60px 20px 50px;
+  }
+  .checkboxBlock {
+    margin-bottom: 30px;
+  }
+  div.forgotPassword {
+    margin: 20px 0 30px;
+  }
+}
+@media screen and (max-height: 880px) and (min-width: 721px) {
+  .popupContent .content {
+    width: 700px;
+    padding: 50px 70px;
+  }
+  .popupContent .content .close {
+    top: 30px;
+    right: 25px;
+  }
+}
+.menuBG {
+  background: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}

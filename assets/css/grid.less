@@ -1,0 +1,50 @@
+@import "./variables.less";
+
+.row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 -10px;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  &.nowrap {
+    -ms-flex-wrap: nowrap;
+    flex-wrap: nowrap;
+  }
+  .w100 {
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .w50 {
+    width: calc(~"50% - 20px");
+  }
+  .w33 {
+    width: calc(~"33.333% - 20px");
+  }
+  .w25 {
+    width: calc(~"25% - 20px");
+  }
+  .w25,
+  .w33,
+  .w50 {
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+  }
+
+  @media (max-width: @tablet) {
+    .tablet {
+      &_w100 {
+        width: 100%;
+      }
+    }
+  }
+  @media (max-width: @mobile) {
+    .mobile {
+      &_w100 {
+        width: 100%;
+      }
+    }
+  }
+}

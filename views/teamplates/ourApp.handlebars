@@ -1,0 +1,50 @@
+<div class="ourApp" id="our-app">
+  <div class="container">
+    <div class="block_title_row">
+      <div data-aos="fade-up">
+        <h4>A platform that makes your everyday life smarter!</h4>
+      </div>
+      <h2 data-aos="fade-up" data-aos-delay="50" class="title">Our apps</h2>
+    </div>
+    <div class="slidersWrap" data-aos="fade-up" data-aos-delay="150">
+      <div class="swiper" id="ourAppTabSlider">
+        <div class="hideLine left"></div>
+        <div class="hideLine right"></div>
+        <div class="swiper-wrapper">
+          {{#each list}}
+          <div class="swiper-slide">
+            <div class="ourAppSliderTab noTap">
+              <img data-src="{{this.icon}}"
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" alt="icon"
+                class="lazyImportant" />
+              <span>{{this.name}}</span>
+            </div>
+          </div>
+          {{/each}}
+        </div>
+      </div>
+      <div class="ourAppSliderWrap">
+        <div class="swiper swiper-container" id="ourAppSlider">
+          <div class="swiper-wrapper">
+            {{#each list}}
+            <div class="swiper-slide">
+              <div class="img">
+                <img data-src="{{this.image}}.png" data-webp="{{this.image}}.webp" 
+                  src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                  class="swiper-lazy webp" alt="icon" />
+              </div>
+              <div class="content">
+                <h5>{{this.name}}</h5>
+                <p>{{this.text}}</p>
+              </div>
+            </div>
+            {{/each}}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        <div class="navigation swiper-button-prev noTap"></div>
+        <div class="navigation swiper-button-next noTap"></div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,57 @@
+<div class="integrations">
+  <div class="decor_circles">
+    <div class="decor_circle left"></div>
+    <div class="decor_circle right"></div>
+  </div>
+
+  <img class="integrations__decor lazy integrations__decor--one" alt="integrations"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="./img/integrations-sec/1.svg" />
+  <img class="integrations__decor lazy integrations__decor--two" alt="integrations"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="./img/integrations-sec/2.svg" />
+  <img class="integrations__decor lazy integrations__decor--three" alt="integrations"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="./img/integrations-sec/3.svg" />
+  <img class="integrations__decor lazy integrations__decor--four" alt="integrations"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="./img/integrations-sec/4.svg" />
+  <img class="integrations__decor lazy integrations__decor--five" alt="integrations"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="./img/integrations-sec/5.svg" />
+  <img class="integrations__decor lazy integrations__decor--six" alt="integrations"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="./img/integrations-sec/6.svg" />
+  <img class="integrations__decor lazy integrations__decor--seven" alt="integrations"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="./img/integrations-sec/7.svg" />
+  <img class="integrations__decor lazy integrations__decor--eight" alt="integrations"
+    src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+    data-src="./img/integrations-sec/8.svg" />
+
+  <div class="container">
+    <div class="block_title_row">
+      <div data-aos="fade-up">
+        <h4>We got it covered</h4>
+      </div>
+      <h2 class="title" data-aos="fade-up" data-aos-delay="50">Integrations</h2>
+    </div>
+    <div class="content">
+      <div class="integrations_list" data-aos="fade-up" data-aos-delay="150">
+        {{#each list}}
+        <div class="list_row">
+          <h5>{{this.title}}</h5>
+          <ul>
+            {{#each this.list}}
+            <li class="listItem">
+              <img class="lazyWebp" src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-src="{{this}}.png" data-webp="{{this}}.webp" alt="logo" />
+            </li>
+            {{/each}}
+          </ul>
+        </div>
+        {{/each}}
+      </div>
+    </div>
+  </div>
+</div>

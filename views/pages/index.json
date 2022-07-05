@@ -1,0 +1,145 @@
+{
+    "title": "Umami View",
+    "integrations": [
+        {
+            "title": "Communication & Calendar",
+            "list": [
+                "./img/integrations/logo-integrations 01",
+                "./img/integrations/logo-integrations 02",
+                "./img/integrations/logo-integrations 03",
+                "./img/integrations/logo-integrations 04",
+                "./img/integrations/logo-integrations 05",
+                "./img/integrations/logo-integrations 06"
+            ]
+        },
+        {
+            "title": "Screening",
+            "list": [
+                "./img/integrations/logo-integrations 07",
+                "./img/integrations/logo-integrations 08"
+            ]
+        },
+        {
+            "title": "Measures",
+            "list": [
+                "./img/integrations/logo-integrations 07",
+                "./img/integrations/logo-integrations 09"
+            ]
+        },
+        {
+            "title": "Purchase",
+            "list": [
+                "./img/integrations/logo-integrations 07",
+                "./img/integrations/logo-integrations 09",
+                "./img/integrations/logo-integrations 10",
+                "./img/integrations/logo-integrations 11",
+                "./img/integrations/logo-integrations 12",
+                "./img/integrations/logo-integrations 13",
+                "./img/integrations/logo-integrations 14",
+                "./img/integrations/logo-integrations 15"
+            ]
+        },
+        {
+            "title": "Payments",
+            "list": [
+                "./img/integrations/logo-integrations 16",
+                "./img/integrations/logo-integrations 17",
+                "./img/integrations/logo-integrations 18"
+            ]
+        },
+        {
+            "title": "Accounting & Banking",
+            "list": [
+                "./img/integrations/logo-integrations 19",
+                "./img/integrations/logo-integrations 20",
+                "./img/integrations/logo-integrations 21"
+            ]
+        },
+        {
+            "title": "Marketing",
+            "list": [
+                "./img/integrations/logo-integrations 22",
+                "./img/integrations/logo-integrations 23",
+                "./img/integrations/logo-integrations 24",
+                "./img/integrations/logo-integrations 25"
+            ]
+        }
+    ],
+    "partners": [
+        "./img/partners/Logo-01",
+        "./img/partners/Logo-02",
+        "./img/partners/Logo-03",
+        "./img/partners/Logo-04",
+        "./img/partners/Logo-05",
+        "./img/partners/Logo-06",
+        "./img/partners/Logo-07"
+    ],
+    "ourApps": [
+        {
+            "name": "UmamiView",
+            "icon": "./img/our-app-sec/1.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Vision Profile",
+            "icon": "./img/our-app-sec/2.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Case History",
+            "icon": "./img/our-app-sec/3.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Measures",
+            "icon": "./img/our-app-sec/4.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Glasses",
+            "icon": "./img/our-app-sec/5.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Lenses",
+            "icon": "./img/our-app-sec/6.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        }
+    ]
+}

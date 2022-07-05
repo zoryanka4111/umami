@@ -1,0 +1,21 @@
+<script>document.getElementsByTagName('body')[0].classList.add('inner-page');</script>
+<div class="b-search-results">
+    <div class="container">
+        <div class="search-results-box">
+            <div class="search-results-title">You searched</div>
+            <div class="searched-text">adding case historty</div>
+            <div class="search-found">4 articles found</div>
+        </div>
+        <div class="blog-items">
+            {{#each list}}
+            {{>blog-item
+            img=this.img
+            category=this.category
+            title=this.title
+            text=this.text
+            }}
+            {{/each}}
+        </div>
+    </div>
+</div>
+{{>b-article-subscribe}}

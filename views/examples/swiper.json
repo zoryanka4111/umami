@@ -1,0 +1,32 @@
+[
+    {
+        "title": "Cloud deployment should companies choose?",
+        "link": "javascript:void(0);",
+        "img": {
+            "src": "./img/blog/blog1.jpg",
+            "retina": "./img/blog/blog1.jpg",
+            "webp": "./img/blog/blog1.webp",
+            "webpRetina": "./img/blog/blog1.webp"
+        }
+    },
+    {
+        "title": "Cloud migration is the process of moving data",
+        "link": "javascript:void(0);",
+        "img": {
+            "src": "./img/blog/blog2.jpg",
+            "retina": "./img/blog/blog2.jpg",
+            "webp": "./img/blog/blog2.webp",
+            "webpRetina": "./img/blog/blog2.webp"
+        }
+    },
+    {
+        "title": "Main challenges of migrating to the cloud",
+        "link": "javascript:void(0);",
+        "img": {
+            "src": "./img/blog/blog3.jpg",
+            "retina": "./img/blog/blog3.jpg",
+            "webp": "./img/blog/blog3.webp",
+            "webpRetina": "./img/blog/blog3.webp"
+        }
+    }
+]

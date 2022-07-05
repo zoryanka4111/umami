@@ -1,0 +1,21 @@
+<div class="blogSlider">
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            {{#each list}}
+            <div class="swiper-slide">
+                <div class="blogCard">
+                    <a href="{{link}}">
+                        <div class="img">
+                            <div class="swiper-lazy-preloader"></div>
+                            <img data-src="{{img.src}}" data-retina="{{img.retina}}" data-webp="{{img.webp}}"
+                                data-webp-retina="{{webpRetina}}" alt="blog" class="swiper-lazy webp"
+                                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==">
+                        </div>
+                        <h5>{{title}}</h5>
+                    </a>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

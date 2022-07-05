@@ -1,0 +1,70 @@
+<div class="popup_wrap">
+    <div class="popup_bg menuBG"></div>
+    <!-- start loginPopup -->
+    <div class="popup_block loginPopup authorizationPopup" id='loginPopup'>
+        <div class="popupWrap">
+            <div class="popupContent">
+                <div class="bgLayer" onclick="popup.hide()"></div>
+                <div class="content">
+                    <div class="close" onclick="popup.hide()">
+                        <svg width="27" height="28" viewBox="0 0 27 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path fill-rule="evenodd" clip-rule="evenodd"
+                                d="M12.2929 13.7071L0 26L0.707108 26.7071L13 14.4142L25.7487 27.163L26.4558 26.4559L13.7071 13.7071L26.1629 1.2513L25.4558 0.544189L13 13L1 1.00003L0.292892 1.70714L12.2929 13.7071Z"
+                                fill="black" />
+                        </svg>
+                    </div>
+                    <div class="popupTop row between margin0">
+                        <h5 class="title">Log in</h5>
+                    </div>
+                    <form class="authorizationForm" novalidate>
+                        <p>Or with your Username or E-mail</p>
+                        <label class="with_hover_text">
+                            <span class="hover_text">Username</span>
+                            <input type="text" name="login" required>
+                        </label>
+                        <label class="with_hover_text">
+                            <span class="hover_text">Password</span>
+                            <input type="password" name="Password" required>
+                        </label>
+                        <div class="forgotPassword">
+                            <p class="line_hover" onclick="forgotPassword();">Forgot password?</p>
+                            <div class="forgotPasswordContent">
+                                <p>We will send you a new password on your email</p>
+                                <label class="with_hover_text">
+                                    <span class="hover_text">E-mail</span>
+                                    <input type="email" name="forgotEmail" required>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="checkboxBlock">
+                            <label class="checkbox">
+                                <input type="checkbox" name="checkbox" checked required>
+                                <span class="check"></span>
+                            </label>
+                            <p>I accept the <a href="javascript:void(0);" class="line_hover">TERMS & PRIVACY</a></p>
+                        </div>
+                        <button type="submit" class="mainBtn big">
+                            <span class="sent">
+                                <svg width='18' height='18' version="1.1" xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                                    viewBox="0 0 511.999 511.999" style="enable-background:new 0 0 511.999 511.999;"
+                                    xml:space="preserve">
+                                    <path d="M506.231,75.508c-7.689-7.69-20.158-7.69-27.849,0l-319.21,319.211L33.617,269.163c-7.689-7.691-20.158-7.691-27.849,0
+			c-7.69,7.69-7.69,20.158,0,27.849l139.481,139.481c7.687,7.687,20.16,7.689,27.849,0l333.133-333.136
+			C513.921,95.666,513.921,83.198,506.231,75.508z" />
+                                </svg>
+                                <span>Sent</span>
+                            </span>
+                            <span class="login">Login now</span>
+                            <span class="forgot">Send</span>
+                        </button>
+                        <div class="forgotDoneText">
+                            <p>Your new password is sent. Check your email</p>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end loginPopup -->
+</div>

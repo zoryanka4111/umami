@@ -1,0 +1,71 @@
+{
+    "title": "Umami View Seo",
+    "ourApps": [
+        {
+            "name": "UmamiView",
+            "icon": "./img/our-app-sec/1.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Vision Profile",
+            "icon": "./img/our-app-sec/2.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Case History",
+            "icon": "./img/our-app-sec/3.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Measures",
+            "icon": "./img/our-app-sec/4.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Glasses",
+            "icon": "./img/our-app-sec/5.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Lenses",
+            "icon": "./img/our-app-sec/6.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        },
+        {
+            "name": "Tears",
+            "icon": "./img/our-app-sec/7.svg",
+            "image": "./img/our-app-sec/apps-umami-view",
+            "text": "One strong plattform to serve the optician with powerfull automation. You can focus on your customers again!"
+        }
+    ]
+}

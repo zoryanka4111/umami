@@ -1,0 +1,14 @@
+RewriteEngine On
+
+RewriteCond %{HTTP_HOST} ^www\.(.*)$ [NC]
+RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+RewriteCond %{HTTPS} off
+RewriteCond %{HTTP:X-Forwarded-Proto} !https
+RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+
+RewriteEngine On
+RewriteRule ^(\w+)$ $1.php [NC]
+
+RewriteCond %{REQUEST_URI} !www/
+RewriteRule (.*) /src/www/$1 [L]

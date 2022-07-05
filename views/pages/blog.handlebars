@@ -1,0 +1,101 @@
+<script>document.getElementsByTagName('body')[0].classList.add('inner-page');</script>
+{{>b-search}}
+<div class="b-blog">
+    <div class="container">
+        <h1>Useful tips & articles</h1>
+        <div class="blog-nav">
+            <div class="left">
+                <div class="blog-nav-slider">
+                    <div class="swiper-container">
+                        <div class="swiper-wrapper">
+                            {{!-- <div class="swiper-slide"></div> --}}
+                            <div class="swiper-slide">
+                                <a href="#" class="active">
+                                    <span>all articles</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span>quick tips</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span>how-tos</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span>case studies</span>
+                                </a>
+                            </div>
+                            <div class="swiper-slide">
+                                <a href="#">
+                                    <span>news</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="swiper-button-prev">
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.7071 0.29289C6.3166 -0.09763 5.6834 -0.09763 5.2929 0.29289L0.29289 5.2929C-0.09763 5.6834 -0.09763 6.3166 0.29289 6.7071L5.2929 11.7071C5.6834 12.0976 6.3166 12.0976 6.7071 11.7071C7.0976 11.3166 7.0976 10.6834 6.7071 10.2929L2.4142 6L6.7071 1.70711C7.0976 1.31658 7.0976 0.68342 6.7071 0.29289Z"
+                                    fill="#A3B1CD" />
+                            </svg>
+                        </div>
+                        <div class="swiper-button-next">
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M0.29289 0.29289C0.68342 -0.09763 1.3166 -0.09763 1.7071 0.29289L6.7071 5.2929C7.0976 5.6834 7.0976 6.3166 6.7071 6.7071L1.7071 11.7071C1.3166 12.0976 0.68342 12.0976 0.29289 11.7071C-0.09763 11.3166 -0.09763 10.6834 0.29289 10.2929L4.5858 6L0.29289 1.70711C-0.09763 1.31658 -0.09763 0.68342 0.29289 0.29289Z"
+                                    fill="#A3B1CD" />
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <div class="blog-nav-search">
+                    <a href="javascript:void(0);" class="open-search">
+                        <svg width="22" height="22" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path id="search_ic_no_hover" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M9.5 0C5.08172 0 1.5 3.58172 1.5 8C1.5 9.8487 2.12708 11.551 3.18014 12.9056L0.29289 15.7929C-0.09763 16.1834 -0.09763 16.8166 0.29289 17.2071C0.68342 17.5976 1.31658 17.5976 1.70711 17.2071L4.59436 14.3199C5.94904 15.3729 7.6513 16 9.5 16C13.9183 16 17.5 12.4183 17.5 8C17.5 3.58172 13.9183 0 9.5 0ZM3.5 8C3.5 4.68629 6.18629 2 9.5 2C12.8137 2 15.5 4.68629 15.5 8C15.5 11.3137 12.8137 14 9.5 14C6.18629 14 3.5 11.3137 3.5 8Z"
+                                fill="#5F626F" />
+                            <path id="search_ic_hover" fill-rule="evenodd" clip-rule="evenodd"
+                                d="M9.5 0C5.08172 0 1.5 3.58172 1.5 8C1.5 9.8487 2.12708 11.551 3.18014 12.9056L0.29289 15.7929C-0.09763 16.1834 -0.09763 16.8166 0.29289 17.2071C0.68342 17.5976 1.31658 17.5976 1.70711 17.2071L4.59436 14.3199C5.94904 15.3729 7.6513 16 9.5 16C13.9183 16 17.5 12.4183 17.5 8C17.5 3.58172 13.9183 0 9.5 0ZM3.5 8C3.5 4.68629 6.18629 2 9.5 2C12.8137 2 15.5 4.68629 15.5 8C15.5 11.3137 12.8137 14 9.5 14C6.18629 14 3.5 11.3137 3.5 8Z"
+                                fill="url(#paint0_linear)" />
+                            <defs>
+                                <linearGradient id="paint0_linear" x1="0" y1="0" x2="17.0269" y2="-0.290656"
+                                    gradientUnits="userSpaceOnUse">
+                                    <stop offset="0" stop-color="#229AFA" />
+                                    <stop offset="1" stop-color="#1168F8" />
+                                </linearGradient>
+                            </defs>
+                        </svg>
+                    </a>
+                </div>
+                <div class="blog-nav-sort">
+                    <label class="blog-nav-sort-checkbox">
+                        <input type="checkbox" name="blog-nav-sort">
+                        <span class="sort-new" onclick="window.location = '#'">new</span>
+                        <span class="sort-popular" onclick="window.location = '#'">popular</span>
+                    </label>
+                </div>
+            </div>
+        </div>
+        <div class="blog-items">
+            {{#each list}}
+            {{>blog-item
+            img=this.img
+            category=this.category
+            title=this.title
+            text=this.text
+            }}
+            {{/each}}
+        </div>
+        <div class="blog-load-more">
+            <a class="" id="more_posts">Load more</a>
+        </div>
+    </div>
+</div>
+{{>b-article-subscribe}}

@@ -1,0 +1,220 @@
+<script>document.getElementsByTagName('body')[0].classList.add('inner-page');</script>
+<div class="pricing pricing-style">
+    <div class="decor_circles">
+        <div class="decor_circle left"></div>
+        <div class="decor_circle right"></div>
+    </div>
+    <div class="container">
+        <div class="topRow">
+            <h1 class="h1">Simple, honest and affordable pricing</h1>
+            <p class="pricing-sub-title">Choose your App-Packages Single, Bundle or as a whole and start to grow</p>
+        </div>
+        <div class="pricing-banner">
+            <div class="left">
+                <div class="pricing-text">Unsere Lösung wird aufgrund ihres innovativen Charakters von Bund und Ländern
+                    mit bis zu 65% gefördert! Jetzt Förderung NOCH bis 31.12 sichern!</div>
+                <div class="pricing_button">
+                    <a id="started__link_chat" class="Button white" href="#">
+                        <span id="started__btn_chat">talk to us</span>
+                    </a>
+                </div>
+            </div>
+            <div class="right"></div>
+            <img alt="customizable" class="decor lazyWebp"
+                src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                data-src="./img/pricing_bg.png" data-webp="./img/pricing_bg.webp" />
+        </div>
+        <div class="pricing_upper">
+            <div class="aos-range-control">
+                <div class="pricing__item">
+                    <div class="calculate__store">
+                        <h3 id="calculate__card1-title">Amount of stores:</h3>
+                        <p id="calculate__personTitle">
+                            <span id="pcalc"></span>
+                        </p>
+                        <div class="calculate__range" id="store_storage"></div>
+                        <div class="range-dots store-range-dots">
+                        </div>
+                    </div>
+                </div>
+                <div class="pricing__item">
+                    <div class="calculate__store">
+                        <h3 id="calculate__card2-title">Total amount of employees:</h3>
+                        <p id="calculate__glassesTitle">
+                            <span id="pcalc2"></span>
+                        </p>
+                        <div class="calculate__range" id="employee_storage"></div>
+                        <div class="range-dots employee-range-dots">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="price_white_outer_right">
+                <div class="switch_no_tss">
+                    <label data-value="no_cloud_tss">Monthly</label>
+                    <label class="switch">
+                        <input type="checkbox" name="Toggle Price" value="Toggle Price" data-off="true" />
+                        <span class="slider round"></span>
+                    </label>
+                </div>
+                <div class="cloud_tss_info">
+                    <label data-value="cloud_tss">Annnualy</label>
+                    <p id="cloud_tss">Save 15%</p>
+                </div>
+                <p id="cloud_tss_price" data-text="15" class="hidden_data">15</p>
+                <input type="hidden" class="per_store_base_price" value="0.8" />
+                <input type="hidden" class="per_emp_base_price" value="5" />
+            </div>
+        </div>
+        <div class="pricing_lower">
+            <div class="swiper-container pricing__list">
+                <div class="swiper-wrapper pricing__wrap">
+                    <div class="swiper-slide price__item  not ">
+                        <div class="part-top">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-white lazyImportant"
+                                data-src="./img/pricing/Single.svg" />
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-blue lazyImportant"
+                                data-src="./img/pricing/Bundle blue.svg" />
+                            <h3 class="pricing_inner--title">Single</h3>
+                            <div class="pricing_wrapper">
+                                <h4 class="pricing_inner--text">34.99</h4>
+                                <label data-value="EUR" class="duration_wrap">EUR</label>
+                            </div>
+                            <ul class="list_item">
+                                <li>One app</li>
+                                <li><span class="stores-count">1</span> store</li>
+                                <li><span class="employees-count">1</span> employee</li>
+                            </ul>
+                        </div>
+                        <div class="part-bot">
+                            <div class="pricing_button">
+                                <a class="btn js-ripple  order__link" href="#">
+                                    <span class="started__btn_indi">Choose plan</span>
+                                </a>
+                            </div>
+                        </div>
+                        <input type="hidden" class="monthly_base_price" value="34.99" />
+                        <input type="hidden" class="pricing_id" value="pricing">
+                    </div>
+                    <div class="swiper-slide price__item  not ">
+                        <div class="part-top">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-white lazyImportant"
+                                data-src="./img/pricing/Bundle.svg" />
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-blue lazyImportant"
+                                data-src="./img/pricing/Bundle blue.svg" />
+                            <h3 class="pricing_inner--title">Bundle</h3>
+                            <div class="pricing_wrapper">
+                                <h4 class="pricing_inner--text">79</h4>
+                                <label data-value="EUR" class="duration_wrap">EUR</label>
+                            </div>
+                            <ul class="list_item">
+                                <li>3 app</li>
+                                <li><span class="stores-count">1</span> store</li>
+                                <li><span class="employees-count">1</span> employee</li>
+                            </ul>
+                        </div>
+                        <div class="part-bot">
+                            <div class="pricing_button">
+                                <a class="btn js-ripple  order__link" href="#">
+                                    <span class="started__btn_indi">Choose plan</span>
+                                </a>
+                            </div>
+                        </div>
+                        <input type="hidden" class="monthly_base_price" value="79" />
+                        <input type="hidden" class="pricing_id" value="pricing">
+                    </div>
+                    <div class="swiper-slide price__item  price__item-core most_popular ">
+                        <div class="part-top">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-white lazyImportant"
+                                data-src="./img/pricing/Core - On blue-white.svg" />
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-blue lazyImportant"
+                                data-src="./img/pricing/Core - On blue.svg" />
+                            <h3 class="pricing_inner--title">Premium</h3>
+                            <div class="pricing_wrapper">
+                                <h4 class="pricing_inner--text">149</h4>
+                                <label data-value="EUR" class="duration_wrap">EUR</label>
+                            </div>
+                            <ul class="list_item">
+                                <li>8 Apps</li>
+                                <li><span class="stores-count">1</span> store</li>
+                                <li><span class="employees-count">1</span> employee</li>
+                            </ul>
+                        </div>
+                        <div class="part-bot">
+                            <div class="pricing_button">
+                                <a class="btn js-ripple  order__link" href="#">
+                                    <span class="started__btn_indi">Choose plan</span>
+                                </a>
+                            </div>
+                        </div>
+                        <p class="hidden_text"> most popular </p> <input type="hidden" class="monthly_base_price"
+                            value="149" />
+                        <input type="hidden" class="pricing_id" value="pricing">
+                    </div>
+                    <div class="swiper-slide price__item  not ">
+                        <div class="part-top">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-white lazyImportant"
+                                data-src="./img/pricing/Best.svg" />
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-blue lazyImportant"
+                                data-src="./img/pricing/Best blue.svg" />
+                            <h3 class="pricing_inner--title">Platinum</h3>
+                            <div class="pricing_wrapper">
+                                <h4 class="pricing_inner--text">199</h4>
+                                <label data-value="EUR" class="duration_wrap">EUR</label>
+                            </div>
+                            <ul class="list_item">
+                                <li>One app</li>
+                                <li><span class="stores-count">1</span> store</li>
+                                <li><span class="employees-count">1</span> employee</li>
+                            </ul>
+                        </div>
+                        <div class="part-bot">
+                            <div class="pricing_button">
+                                <a class="btn js-ripple  order__link" href="#">
+                                    <span class="started__btn_indi">Choose plan</span>
+                                </a>
+                            </div>
+                        </div>
+                        <input type="hidden" class="monthly_base_price" value="199" />
+                        <input type="hidden" class="pricing_id" value="pricing">
+                    </div>
+                    <div class="swiper-slide price__item  not price__item-individual ">
+                        <div class="part-top">
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-white lazyImportant"
+                                data-src="./img/pricing/Indiviual.svg" />
+                            <img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                                alt="price__item" class="img-for-blue lazyImportant"
+                                data-src="./img/pricing/Indiviual-white.svg" />
+                            <h3 class="pricing_inner--title">Individual</h3>
+                            <p class="pricing_inner--details">If there`s no right package for you please contact us and
+                                we`ll find the best solution for you together.</p>
+                            <ul class="list_item">
+                            </ul>
+                        </div>
+                        <div class="part-bot">
+                            <div class="pricing_button">
+                                <a id="started__link_indi" class="btn js-ripple  started__link_indi " href="#">
+                                    <span class="started__btn_indi">Let`s have a chat! </span>
+                                </a>
+                            </div>
+                        </div>
+                        <input type="hidden" class="monthly_base_price" value="" />
+                        <input type="hidden" class="pricing_id" value="pricing">
+                    </div>
+
+                </div>
+                <div class="swiper-pagination pricing-dots"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{{>preferences}}

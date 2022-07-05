@@ -1,0 +1,28 @@
+<div class="partners">
+  <div class="container" data-aos="fade-up">
+    <h4 id="partners-title" data-text="Optiker vertrauen bereits auf Umami View">
+      <span id="partners-count">15+</span>opticians who alreday trust in
+      OptiCore
+    </h4>
+  </div>
+  <div class="partners_slider" data-aos="fade-up" data-aos-delay="150">
+    <div class="swiper swiper-container">
+      <div class="swiper-wrapper">
+        {{#each list}}
+        <div class="swiper-slide">
+          <div class="partners__item">
+            <div>
+              <img 
+              data-src="{{this}}.png"
+              data-webp="{{this}}.webp"
+               src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw=="
+                class="swiper-lazy webp" alt="slide" />
+            </div>
+          </div>
+        </div>
+        {{/each}}
+      </div>
+      <div class="swiper-pagination partners__dots"></div>
+    </div>
+  </div>
+</div>
